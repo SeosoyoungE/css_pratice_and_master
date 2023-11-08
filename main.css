@@ -5,7 +5,7 @@ body{
     background: #ff1b68;
     padding: 20px;
     border: 5px black solid;
-    margin: 20px;
+    margin: 20px; /*h1과 마진상쇄*/
 }
 #product-overview h1{
     color: white;
