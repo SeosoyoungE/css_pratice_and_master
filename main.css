@@ -7,12 +7,9 @@ body{
 }
 #product-overview{
     background: #ff1b68;
-    width: 700px;
+    width: 100%;
     height: 528px;
     padding: 10px;
-    border: 5px solid black;
-    margin: 10px;
-    box-sizing: border-box; /*margin값만 미포함*/
 }
 .section-title{
     color: #2ddf5c;
@@ -28,3 +25,8 @@ main{
 /* h1{
     font-family: sans-serif;
 } */
+.main-header{
+    padding: 8px 16px;
+    width:100%;
+    background: #2ddf5c;
+}
