@@ -54,4 +54,9 @@ main{
 }
 .main-nav__item{ /*네비게이션 li들*/
     display: inline-block;
+    margin: 0 16px;
+}
+.main-nav__item a{
+    color: #0e4f1f;
+    text-decoration: none;
 }
