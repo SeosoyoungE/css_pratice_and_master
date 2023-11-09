@@ -16,8 +16,7 @@ body{
 }
 #product-overview h1{
     color: white;
-    font-family: 'Anton', sans-serif;
-    margin: 1.5rem;
+    font-family: 'Anton', sans-serif ;
 }
 main{
     height: 100px;
@@ -30,9 +29,19 @@ main{
     width:100%;
     background: #2ddf5c;
 }
-.main-nav_item{
+.main-header > div{
     display: inline-block;
 }
-li{
-    padding: 30px;
+.main-nav{
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 49px);
+}
+.main-nav_items{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.main-nav_item{
+    display: inline-block;
 }
