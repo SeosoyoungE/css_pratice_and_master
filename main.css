@@ -30,3 +30,9 @@ main{
     width:100%;
     background: #2ddf5c;
 }
+.main-nav_item{
+    display: inline-block;
+}
+li{
+    padding: 30px;
+}
