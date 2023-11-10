@@ -18,7 +18,7 @@ a.active {
   color: #521752;
 }
 
-a:not(.active) {
+a:not(.active) { /*not과 !important는 되도록 사용하지 말것*/
   color: blue;
 }
 
