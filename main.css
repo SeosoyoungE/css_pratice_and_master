@@ -60,6 +60,10 @@ main{
     color: #0e4f1f;
     text-decoration: none;
 }
+.main-nav__item a::after{
+    content: " (Link)";
+    color: red;
+}
 .main-nav__item a:hover{
     color: white;
 }
