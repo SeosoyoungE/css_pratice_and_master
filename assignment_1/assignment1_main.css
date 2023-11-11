@@ -1,0 +1,25 @@
+body{
+	font-family: sans-serif;
+}
+h1{
+	color: navy;
+    font-family: sans-serif;
+}
+li{
+	font-family: inherit;
+}
+li:nth-child(2) code{
+	color:green;
+}
+code{
+	color:red;
+    font-family: 'monospace', sans-serif;
+}
+li ~ li{
+	color: white;
+    background: black;
+}
+ol li{
+	color: white;
+    background: black;
+}
