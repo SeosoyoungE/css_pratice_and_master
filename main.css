@@ -72,11 +72,13 @@ body {
   cursor: pointer;
 }
 .button:hover,
-.button:active{
-  color:#0e4f1f;
+.button:active {
+  color: #0e4f1f;
   background: white;
 }
-
+.button:focus{
+  outline: none;
+}
 /* h1{
   font-family: sans-serif;
 } */
