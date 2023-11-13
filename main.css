@@ -76,9 +76,23 @@ body {
   color: #0e4f1f;
   background: white;
 }
-.button:focus{
+.button:focus {
   outline: none;
 }
+
+#key-features {
+  background: #ff1b68;
+  margin-top: 80px;
+  padding: 16px;
+}
+#key-features .section-title {
+  color: white;
+  margin: 32px;
+}
+#key-features li {
+  display: inline-block;
+}
+
 /* h1{
   font-family: sans-serif;
 } */
