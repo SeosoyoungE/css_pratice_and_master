@@ -1,3 +1,29 @@
+.main-section {
+  border: 5px solid #0e4f1f;
+  width: 70%;
+  margin: 32px;
+}
 
+.main-section:first-child {
+  background: #bfffd0;
+}
+
+.main-section:nth-child(2) {
+  background: #e9ffef;
+}
+
+.main-section:nth-child(3) {
+  background: #2ddf5c;
+}
+
+.main-section a {
+  padding: 36px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.main-section__title {
+  color: #000;
+}
 
 /*# sourceMappingURL=index.40a98a5a.css.map */
