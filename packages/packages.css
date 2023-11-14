@@ -25,7 +25,7 @@
 .main-section__title {
   color: black;
 }
-.main-section__title:nth-child(3) {
+.white {
   color: white;
 }
 
