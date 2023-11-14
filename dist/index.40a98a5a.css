@@ -1,7 +1,7 @@
 .main-section {
   border: 5px solid #0e4f1f;
-  width: 70%;
-  margin: 32px;
+  width: 50%;
+  margin: 16px 0;
 }
 
 .main-section:first-child {
@@ -13,7 +13,7 @@
 }
 
 .main-section:nth-child(3) {
-  background: #2ddf5c;
+  background: #0e4f1f;
 }
 
 .main-section a {
@@ -22,8 +22,27 @@
   display: inline-block;
 }
 
+.main-section:hover, .main-section:active {
+  border: 6px solid coral;
+}
+
 .main-section__title {
   color: #000;
+}
+
+.main-section h2 {
+  color: #858585;
+}
+
+.main-section__title:nth-child(2) {
+  color: #fff;
+}
+
+.main-section p {
+  color: #093b16;
+  background: #fff;
+  border: 1.5px solid #093b16;
+  padding: 16px 8px;
 }
 
 /*# sourceMappingURL=index.40a98a5a.css.map */
