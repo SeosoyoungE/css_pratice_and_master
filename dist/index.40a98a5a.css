@@ -30,6 +30,10 @@ main {
   border-right: none;
 }
 
+#free:hover, #free :active {
+  border-color: #ff5454;
+}
+
 #premium {
   background: #0e4f1ff2;
 }
