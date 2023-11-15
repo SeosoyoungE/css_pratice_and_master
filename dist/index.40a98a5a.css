@@ -3,6 +3,7 @@ main {
 }
 
 .background {
+  z-index: -1;
   background: url("plans-background.7fd0170f.jpg");
   width: 100%;
   height: 100%;
