@@ -14,6 +14,7 @@ main {
   width: 80%;
   border: 4px #0e4f1f solid;
   border-left: none;
+  position: relative;
 }
 .package:hover,
 .package:active {
@@ -50,17 +51,22 @@ main {
   color: inherit;
 }
 
-.main-section__title {
+.package__title {
   color: black;
 }
-#premium .main-section__title {
+#premium .package__title {
   color: white;
 }
-
-.package h2 {
+.package__badge {
+  position: absolute;
+  top: 50px;
+  left: 400px;
+  margin: 20px;
+}
+.package .package__subtitle {
   color: #979797;
 }
-#premium h2 {
+#premium .package__subtitle {
   color: #bbb;
 }
 .package p {
