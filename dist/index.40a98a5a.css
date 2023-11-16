@@ -63,10 +63,14 @@ main {
 }
 
 .package__badge {
+  color: #fff;
+  background: #ff5454;
   margin: 20px;
+  padding: 8px;
+  font-size: 12px;
   position: absolute;
   top: 50px;
-  left: 400px;
+  right: 0;
 }
 
 .package .package__subtitle {
