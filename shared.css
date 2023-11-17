@@ -6,6 +6,7 @@ body {
   margin: 0;
 }
 
+/* 헤더 */
 .main-header {
   padding: 8px 16px;
   width: 100%;
@@ -75,6 +76,7 @@ body {
   border: none;
 }
 
+/* 푸터 */
 .main-footer {
   background: black;
   padding: 32px;
