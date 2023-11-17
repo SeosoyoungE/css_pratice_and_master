@@ -1,5 +1,5 @@
 #product-overview {
-  background: url("../freedom.3408afad.jpg") left 10% bottom 20% / cover no-repeat border-box;
+  background: linear-gradient(red 70%, #00f 80%, #00000080) left 10% bottom 20% / cover no-repeat border-box;
   width: 100%;
   height: 528px;
   margin-top: 42px;
