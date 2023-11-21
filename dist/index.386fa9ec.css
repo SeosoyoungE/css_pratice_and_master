@@ -22,7 +22,7 @@ body {
   z-index: 1;
   background: #2ddf5c;
   width: 100%;
-  padding: 8px 16px;
+  padding: .5rem 2rem;
   position: fixed;
   top: 0;
   left: 0;
@@ -35,8 +35,8 @@ body {
 
 .main-header__brand {
   color: #0e4f1f;
-  height: 22px;
-  font-size: 22px;
+  height: 1.4rem;
+  font-size: 1.4rem;
   font-weight: bold;
   text-decoration: none;
   display: inline-block;
@@ -49,7 +49,7 @@ body {
 .main-nav {
   text-align: right;
   vertical-align: middle;
-  width: calc(100% - 74px);
+  width: calc(100% - 4.6rem);
   display: inline-block;
 }
 
@@ -60,7 +60,7 @@ body {
 }
 
 .main-nav__item {
-  margin: 0 16px;
+  margin: 0 1rem;
   display: inline-block;
 }
 
@@ -79,8 +79,8 @@ body {
 .main-nav__item--cta a {
   color: #fff;
   background: #ff1b68;
-  border-radius: 8px;
-  padding: 8px 16px;
+  border-radius: .5rem;
+  padding: .5rem 1rem;
 }
 
 .main-nav__item--cta a:hover, .main-nav__item--cta a:active {
@@ -91,8 +91,8 @@ body {
 
 .main-footer {
   background: #000;
-  margin-top: 48px;
-  padding: 32px;
+  margin-top: 3rem;
+  padding: 2rem;
 }
 
 .main-footer__links {
@@ -103,7 +103,7 @@ body {
 }
 
 .main-footer__link {
-  margin: 0 16px;
+  margin: 0 1rem;
   display: inline-block;
 }
 
@@ -122,8 +122,8 @@ body {
   cursor: pointer;
   background: #0e4f1f;
   border: 1.5px solid #0e4f1f;
-  border-radius: 8px;
-  padding: 8px;
+  border-radius: .5rem;
+  padding: .5rem;
   font-weight: bold;
 }
 
