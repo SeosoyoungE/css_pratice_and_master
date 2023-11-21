@@ -1,6 +1,6 @@
 .testimonial {
   margin: 48px 0;
-  font-size: 20px;
+  font-size: 1.2rem;
 }
 
 .testimonial__list {
@@ -44,12 +44,13 @@
 .testimonial__name {
   color: #ff5454;
   margin: 3px;
+  font-size: 2rem;
 }
 
 .testimonial__subtitle {
   color: #ccc;
   margin: 0;
-  font-size: 18px;
+  font-size: 1.1rem;
 }
 
 .testimonial__subtitle a {

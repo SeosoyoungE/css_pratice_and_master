@@ -2,10 +2,6 @@
   box-sizing: border-box;
 }
 
-html {
-  font-size: 75%;
-}
-
 body {
   margin: 0;
   font-family: Montserrat, sans-serif;
