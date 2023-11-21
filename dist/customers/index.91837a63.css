@@ -9,7 +9,7 @@
 }
 
 .testimonial:first-of-type {
-  margin-top: 96px;
+  margin-top: 6rem;
 }
 
 .testimonial__image-container {
@@ -29,7 +29,7 @@
   text-align: right;
   vertical-align: top;
   width: 30%;
-  padding: 14px;
+  padding: .9rem;
   display: inline-block;
 }
 
@@ -43,7 +43,7 @@
 
 .testimonial__name {
   color: #ff5454;
-  margin: 3px;
+  margin: .2rem;
   font-size: 2rem;
 }
 
@@ -63,7 +63,7 @@
 }
 
 .testimonial__text {
-  margin: 3px;
+  margin: .2rem;
 }
 
 /*# sourceMappingURL=index.91837a63.css.map */
