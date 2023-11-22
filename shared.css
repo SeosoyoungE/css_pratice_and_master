@@ -7,9 +7,12 @@ body {
   margin: 0;
 }
 
+.hidden {
+  display: none;
+}
+
 .backdrop {
   position: fixed;
-  display: none;
   top: 0;
   left: 0;
   z-index: 100;
