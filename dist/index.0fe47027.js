@@ -12,10 +12,10 @@ for(let i = 0; i < selectPlanButton.length; i++)selectPlanButton[i].addEventList
 //모달 No버튼 클릭시 모달창 없애기 & 모바일nav 없애기
 const closeModal = ()=>{
     backdrop.classList.add("hidden");
-    modal.classList.add("hidden");
+    if (modal) modalNegativeBtn.addEventListener("click", closeModal);
     mobileNav.classList.add("hidden");
 };
-modalNegativeBtn.addEventListener("click", closeModal);
+if (modalNegativeBtn) modalNegativeBtn.addEventListener("click", closeModal);
 backdrop.addEventListener("click", closeModal);
 //햄버거 버튼 클릭시 모바일nav 뜨기
 toggleButton.addEventListener("click", ()=>{
