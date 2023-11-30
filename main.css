@@ -27,16 +27,6 @@
   font-size: 1.6rem;
 }
 
-@media (min-width: 40rem) {
-  #product-overview {
-    height: 40vh;
-    background-position: 50% 25%;
-  }
-  #product-overview h1 {
-    font-size: 3rem;
-  }
-}
-
 .section-title {
   color: #2ddf5c;
   text-align: center;
@@ -189,4 +179,27 @@
 .modal__action--negative:active {
   background: #ff5454;
   border-color: #ff5454;
+}
+
+/* 미디어 쿼리 if문의 순서가 중요 */
+/* 중기기용 */
+@media (min-width: 40rem) {
+  #product-overview {
+    height: 40vh;
+    background-position: 50% 25%;
+  }
+  #product-overview h1 {
+    font-size: 3rem;
+  }
+}
+
+/* 큰기기(데스크탑 등)용 */
+@media (min-width: 60rem) {
+  #product-overview {
+    height: 50vh;
+    background-position: 50% 25%;
+  }
+  #product-overview h1 {
+    font-size: 5rem;
+  }
 }
