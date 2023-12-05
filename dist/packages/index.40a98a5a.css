@@ -90,4 +90,26 @@ main {
   font-size: 1.25rem;
 }
 
+@media (width >= 40rem) {
+  main {
+    max-width: 1500px;
+    margin: 3rem auto;
+  }
+}
+
+@media (width >= 1500px) {
+  main {
+    max-width: 1500px;
+    margin: 3rem auto;
+  }
+
+  .package {
+    border-left: 4px solid #0e4f1f;
+  }
+
+  #free {
+    border-right: 4px solid #0e4f1f;
+  }
+}
+
 /*# sourceMappingURL=index.40a98a5a.css.map */
