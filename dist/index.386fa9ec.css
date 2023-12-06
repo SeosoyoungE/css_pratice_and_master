@@ -61,14 +61,14 @@ body {
 .main-header__brand {
   color: #0e4f1f;
   vertical-align: middle;
-  font-size: 1.5rem;
+  height: 2.5rem;
   font-weight: bold;
   text-decoration: none;
   display: inline-block;
 }
 
 .main-header__brand img {
-  height: 2.5rem;
+  height: 100%;
 }
 
 .main-nav {

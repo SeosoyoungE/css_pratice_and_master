@@ -13,7 +13,7 @@
   /* background-image: radial-gradient(ellipse farthest-corner at 20% 50%, red, blue 70%, green); */
   width: 100vw;
   height: 33vh;
-  margin-top: 2.75rem;
+  margin-top: 3.5rem;
   /* border: 5px dashed red; */
   position: relative;
 }
@@ -33,7 +33,7 @@
 }
 /* 미디어 쿼리 if문의 순서가 중요 */
 /* 중기기용 */
-@media (min-width: 40rem), (min-height: 60rem) {
+@media (min-width: 40rem), (min-height: 40rem) {
   #product-overview {
     height: 40vh;
     background-position: 50% 25%;
