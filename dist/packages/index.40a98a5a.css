@@ -70,7 +70,7 @@ main {
   padding: .5rem;
   font-size: .75rem;
   position: absolute;
-  top: 50px;
+  top: 0%;
   right: 0;
 }
 
@@ -93,14 +93,14 @@ main {
 @media (width >= 40rem) {
   main {
     max-width: 1500px;
-    margin: 3rem auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
 @media (width >= 1500px) {
   main {
     max-width: 1500px;
-    margin: 3rem auto;
   }
 
   .package {

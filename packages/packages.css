@@ -60,7 +60,7 @@ main {
 }
 .package__badge {
   position: absolute;
-  top: 50px;
+  top: 0%;
   right: 0;
   margin: 1.25rem;
   font-size: 0.75rem;
@@ -84,14 +84,14 @@ main {
 
 @media (min-width: 40rem) {
   main {
-    margin: 3rem auto;
     max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
 @media (min-width: 1500px) {
   main {
-    margin: 3rem auto;
     max-width: 1500px;
   }
   .package {
