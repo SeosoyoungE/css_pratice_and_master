@@ -27,6 +27,18 @@ main {
   display: inline-block;
 }
 
+.signup-form input, .signup-form select {
+  font: inherit;
+  border: 1px solid #ccc;
+  padding: .2rem .5rem;
+}
+
+.signup-form input:focus, .signup-form select:focus {
+  background-color: #d8f3df;
+  border-color: #2ddf5c;
+  outline: none;
+}
+
 .signup-form button[type="submit"] {
   margin: 1rem auto;
   display: block;
