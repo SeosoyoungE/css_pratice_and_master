@@ -60,7 +60,7 @@ main {
   border-color: red !important;
   background-color: #faacac;
 }
-.invalid .signup-form button[type="submit"] {
+.signup-form button[type="submit"] {
   display: block;
   margin: 1rem auto;
 }

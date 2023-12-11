@@ -224,3 +224,11 @@ main {
 .button:focus {
   outline: none;
 }
+
+/* 유효성검사 */
+.button [disabled] {
+  cursor: not-allowed;
+  border: #a1a1a1;
+  background-color: #ccc;
+  color: #a1a1a1;
+}
