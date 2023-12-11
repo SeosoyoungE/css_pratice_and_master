@@ -8,14 +8,35 @@ main {
   font-size: 1.8rem;
 }
 
+.signup-form {
+  padding: 1rem;
+}
+
+.signup-form label {
+  font-weight: bold;
+}
+
 .signup-form label, .signup-form input, .signup-form select {
   width: 100%;
   margin-top: 1rem;
   display: block;
 }
 
-input[type="checkbox"] {
+.signup-form input[id*="terms"], .signup-form input[id*="terms"] + label {
+  width: auto;
   display: inline-block;
+}
+
+.signup-form button[type="submit"] {
+  margin: 1rem auto;
+  display: block;
+}
+
+@media (width >= 40rem) {
+  .signup-form {
+    width: 25rem;
+    margin: auto;
+  }
 }
 
 /*# sourceMappingURL=index.0a1e4172.css.map */
