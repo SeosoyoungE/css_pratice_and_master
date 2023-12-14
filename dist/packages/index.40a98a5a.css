@@ -1,3 +1,8 @@
+@font-face {
+  font-family: AnonymousPro;
+  src: url("../AnonymousPro-Regular.7f935205.ttf") format("truetype");
+}
+
 main {
   padding-top: 2rem;
 }
@@ -22,10 +27,6 @@ main {
 .package:hover, .package:active {
   border-color: #ff5454;
   box-shadow: 2px 2px 4px #00000080;
-}
-
-.clearfix {
-  clear: both;
 }
 
 #plus {
@@ -87,9 +88,12 @@ main {
   background: #fff;
   border: 1px solid #0e4f1f;
   padding: 1rem;
-  font-family: Roboto, sans-serif;
+  font-family: AnonymousPro, sans-serif;
   font-size: 1.25rem;
-  font-weight: 900;
+}
+
+.clearfix {
+  clear: both;
 }
 
 @media (width >= 40rem) {
