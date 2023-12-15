@@ -81,7 +81,11 @@ main {
   border: #0e4f1f solid 1px;
   font-size: 1.25rem;
   background: white;
-  font-family: "AnonymousPro", sans-serif;
+  /* text-shadow: 2px 2px 7px rgb(121, 121, 121); */
+  /* font:
+    italic small-caps 700 1.2rem/2 "AnonymousPro",
+    sans-serif;
+  작성순서에 유의 */
 }
 .clearfix {
   clear: both;
