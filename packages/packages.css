@@ -86,7 +86,7 @@ main {
     sans-serif;
   작성순서에 유의 */
   /* text-shadow: 2px 2px 7px rgb(121, 121, 121); */
-
+  /* text-decoration: underline dotted red; */
 }
 .clearfix {
   clear: both;
