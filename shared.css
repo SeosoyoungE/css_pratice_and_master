@@ -135,11 +135,6 @@ main {
 @media (min-width: 40rem) {
   .main-nav {
     display: flex;
-
-    /* display: inline-block;
-    text-align: right;
-    width: calc(100% - 44px);
-    vertical-align: middle;*/
   }
   .toggle-button {
     display: none;
@@ -157,11 +152,13 @@ main {
   list-style: none;
   margin: 0;
   padding: 0;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .main-footer__link {
-  margin: 1rem 0rem;
+  margin: 0.5rem 0rem;
 }
 
 .main-footer__link a {
@@ -175,8 +172,11 @@ main {
 }
 
 @media (min-width: 40rem) {
+  .main-footer__links {
+    flex-direction: row;
+    justify-content: center;
+  }
   .main-footer__link {
-    display: inline-block;
     margin: 0 1rem;
   }
 }
