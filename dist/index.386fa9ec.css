@@ -176,12 +176,15 @@ main {
 }
 
 .mobile-nav__items {
-  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 90%;
   height: 100%;
-  margin: 10% auto;
+  margin: 0 auto;
   padding: 0;
   list-style: none;
+  display: flex;
 }
 
 .mobile-nav__item {
