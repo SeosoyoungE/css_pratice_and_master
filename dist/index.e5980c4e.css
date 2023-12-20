@@ -19,7 +19,7 @@
   text-align: center;
 }
 
-@media (width >= 40rem), (height >= 40rem) {
+@media (width >= 40rem) {
   #product-overview {
     background-position: 50% 25%;
     height: 40vh;

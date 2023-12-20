@@ -1,6 +1,6 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap";
 @import "https://fonts.googleapis.com/css2?family=Anton&display=swap";
 @import "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap";
-@import "https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap";
 * {
   box-sizing: border-box;
 }
@@ -32,8 +32,11 @@ main {
 .main-header {
   z-index: 1;
   background: #2ddf5c;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
   padding: .5rem 1rem;
+  display: flex;
   position: fixed;
   top: 0;
   left: 0;
@@ -68,21 +71,18 @@ main {
 
 .main-header__brand {
   color: #0e4f1f;
-  vertical-align: middle;
-  height: 2.5rem;
   font-weight: bold;
   text-decoration: none;
-  display: inline-block;
 }
 
 .main-header__brand img {
-  height: 100%;
+  vertical-align: middle;
+  height: 2.5rem;
 }
 
 .main-nav {
   text-align: right;
   vertical-align: middle;
-  width: calc(100% - 44px);
   display: none;
 }
 
@@ -90,11 +90,11 @@ main {
   margin: 0;
   padding: 0;
   list-style: none;
+  display: flex;
 }
 
 .main-nav__item {
   margin: 0 1rem;
-  display: inline-block;
 }
 
 .main-nav__item a, .mobile-nav__item a {
@@ -124,10 +124,7 @@ main {
 
 @media (width >= 40rem) {
   .main-nav {
-    text-align: right;
-    vertical-align: middle;
-    width: calc(100% - 44px);
-    display: inline-block;
+    display: flex;
   }
 
   .toggle-button {
