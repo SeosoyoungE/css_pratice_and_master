@@ -90,19 +90,26 @@
 
 @media (width >= 40rem) {
   .plan__list {
-    text-align: center;
+    justify-content: center;
+    align-items: center;
     width: 100%;
+    display: flex;
   }
 
   .plan {
-    vertical-align: middle;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     width: 30%;
     min-width: 13rem;
     max-width: 40rem;
-    display: inline-block;
+    height: 28rem;
+    display: flex;
   }
 
   .plan--highlighted {
+    z-index: 50;
+    height: 30rem;
     box-shadow: 2px 2px 2px 2px #00000080;
   }
 }
@@ -142,12 +149,15 @@
   font-weight: bold;
 }
 
-@media (width >= 40rem) and (height >= 60rem) {
+@media (width >= 40rem) {
   .key-feature {
-    vertical-align: top;
     width: 30%;
     max-width: 25rem;
-    display: inline-block;
+  }
+
+  .key-feature__list {
+    justify-content: center;
+    display: flex;
   }
 }
 

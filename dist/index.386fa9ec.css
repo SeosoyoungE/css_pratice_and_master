@@ -30,7 +30,7 @@ main {
 }
 
 .main-header {
-  z-index: 1;
+  z-index: 99;
   background: #2ddf5c;
   justify-content: space-between;
   align-items: center;
