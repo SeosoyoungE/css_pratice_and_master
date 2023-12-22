@@ -57,20 +57,19 @@ main {
 
 @media (width >= 40rem) {
   .testimonial {
+    justify-content: space-around;
+    align-items: center;
     max-width: 1500px;
     margin: 3rem auto;
+    display: flex;
   }
 
   .testimonial__image-container {
-    vertical-align: middle;
     width: 66%;
-    display: inline-block;
   }
 
   .testimonial__info {
-    vertical-align: middle;
     width: 30%;
-    display: inline-block;
   }
 }
 
