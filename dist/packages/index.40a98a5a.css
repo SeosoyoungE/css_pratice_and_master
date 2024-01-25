@@ -1,3 +1,8 @@
+@font-face {
+  font-family: AnonymousPro;
+  src: url("../AnonymousPro-Regular.7f935205.ttf") format("truetype");
+}
+
 main {
   padding-top: 2rem;
 }
@@ -22,10 +27,6 @@ main {
 .package:hover, .package:active {
   border-color: #ff5454;
   box-shadow: 2px 2px 4px #00000080;
-}
-
-.clearfix {
-  clear: both;
 }
 
 #plus {
@@ -70,7 +71,7 @@ main {
   padding: .5rem;
   font-size: .75rem;
   position: absolute;
-  top: 50px;
+  top: 0%;
   right: 0;
 }
 
@@ -88,6 +89,32 @@ main {
   border: 1px solid #0e4f1f;
   padding: 1rem;
   font-size: 1.25rem;
+}
+
+.clearfix {
+  clear: both;
+}
+
+@media (width >= 40rem) {
+  main {
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (width >= 1500px) {
+  main {
+    max-width: 1500px;
+  }
+
+  .package {
+    border-left: 4px solid #0e4f1f;
+  }
+
+  #free {
+    border-right: 4px solid #0e4f1f;
+  }
 }
 
 /*# sourceMappingURL=index.40a98a5a.css.map */

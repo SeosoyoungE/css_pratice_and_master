@@ -1,9 +1,17 @@
 #product-overview {
-  background: linear-gradient(to top, #50441299 10%, #0000), url("freedom.3408afad.jpg") left 10% bottom 70% / cover no-repeat border-box, #ff1b68;
+  background: linear-gradient(to top, #50441299 10%, #0000), url("freedom.3408afad.jpg") center / cover no-repeat border-box, #ff1b68;
   width: 100vw;
   height: 33vh;
-  margin-top: 2.75rem;
   position: relative;
+}
+
+#product-overview h1 {
+  color: #fff;
+  font-family: Anton, sans-serif;
+  font-size: 1.6rem;
+  position: absolute;
+  bottom: 5%;
+  left: 3%;
 }
 
 .section-title {
@@ -11,34 +19,39 @@
   text-align: center;
 }
 
-#product-overview h1 {
-  color: #fff;
-  font-family: Anton, sans-serif;
-  position: absolute;
-  bottom: 5%;
-  left: 3%;
+@media (width >= 40rem) {
+  #product-overview {
+    background-position: 50% 25%;
+    height: 40vh;
+  }
+
+  #product-overview h1 {
+    font-size: 3rem;
+  }
 }
 
-.plan__list {
-  text-align: center;
-  width: 80%;
-  margin: auto;
+@media (width >= 60rem) {
+  #product-overview {
+    background-position: 50% 25%;
+    height: 50vh;
+  }
+
+  #product-overview h1 {
+    font-size: 5rem;
+  }
 }
 
 .plan {
   text-align: center;
-  vertical-align: middle;
   background: #d5ffdc;
-  width: 30%;
-  margin: .5rem;
+  width: 100%;
+  margin: .5rem 0;
   padding: 1rem;
-  display: inline-block;
 }
 
 .plan--highlighted {
   color: #fff;
   background: #19b84c;
-  box-shadow: 2px 2px 2px 2px #00000080;
 }
 
 .plan__annotation {
@@ -75,6 +88,32 @@
   margin: .5rem 0;
 }
 
+@media (width >= 40rem) {
+  .plan__list {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    display: flex;
+  }
+
+  .plan {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    min-width: 13rem;
+    max-width: 40rem;
+    height: 28rem;
+    display: flex;
+  }
+
+  .plan--highlighted {
+    z-index: 50;
+    height: 30rem;
+    box-shadow: 2px 2px 2px 2px #00000080;
+  }
+}
+
 #key-features {
   background: #ff1b68;
   margin-top: 5rem;
@@ -93,12 +132,6 @@
   list-style: none;
 }
 
-.key-feature {
-  vertical-align: top;
-  width: 30%;
-  display: inline-block;
-}
-
 .key-feature__image {
   background: #ffcede;
   border: 2px solid #424242;
@@ -114,6 +147,18 @@
   color: #fff;
   font-size: 1.2rem;
   font-weight: bold;
+}
+
+@media (width >= 40rem) {
+  .key-feature {
+    width: 30%;
+    max-width: 25rem;
+  }
+
+  .key-feature__list {
+    justify-content: center;
+    display: flex;
+  }
 }
 
 .modal {

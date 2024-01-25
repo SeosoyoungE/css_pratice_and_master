@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
 * {
   box-sizing: border-box;
 }
@@ -6,7 +10,10 @@ body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
 }
-
+main {
+  min-height: calc(100vh - 3.5rem - 8rem);
+  margin-top: 3.5rem;
+}
 .hidden {
   display: none;
 }
@@ -29,7 +36,10 @@ body {
   left: 0;
   background: #2ddf5c;
   padding: 0.5rem 1rem;
-  z-index: 1;
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .main-header > div {
@@ -65,22 +75,18 @@ body {
   color: #0e4f1f;
   text-decoration: none;
   font-weight: bold;
-  font-size: 1.5rem;
-  height: 1.5rem;
   /* width: 20px; */
-  display: inline-block;
-  vertical-align: middle;
 }
 
 .main-header__brand img {
-  height: 100%;
+  height: 2.5rem;
+  vertical-align: middle;
   /* width: 100%; */
 }
 
 .main-nav {
-  display: inline-block;
+  display: none;
   text-align: right;
-  width: calc(100% - 122px);
   vertical-align: middle;
 }
 
@@ -88,10 +94,10 @@ body {
   margin: 0;
   padding: 0;
   list-style: none;
+  display: flex;
 }
 
 .main-nav__item {
-  display: inline-block;
   margin: 0 1rem;
 }
 
@@ -126,6 +132,15 @@ body {
   border: none;
 }
 
+@media (min-width: 40rem) {
+  .main-nav {
+    display: flex;
+  }
+  .toggle-button {
+    display: none;
+  }
+}
+
 /* 푸터 */
 .main-footer {
   background: black;
@@ -137,12 +152,13 @@ body {
   list-style: none;
   margin: 0;
   padding: 0;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .main-footer__link {
-  display: inline-block;
-  margin: 0 1rem;
+  margin: 0.5rem 0rem;
 }
 
 .main-footer__link a {
@@ -153,6 +169,16 @@ body {
 .main-footer__link a:hover,
 .main-footer__link a:active {
   color: #ccc;
+}
+
+@media (min-width: 40rem) {
+  .main-footer__links {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .main-footer__link {
+    margin: 0 1rem;
+  }
 }
 
 /* 모바일 네비바 */
@@ -170,9 +196,13 @@ body {
   width: 90%;
   height: 100%;
   list-style: none;
-  margin: 10% auto;
+  margin: 0 auto;
   padding: 0;
-  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .mobile-nav__item {
@@ -203,4 +233,12 @@ body {
 
 .button:focus {
   outline: none;
+}
+
+/* 유효성검사 */
+.button [disabled] {
+  cursor: not-allowed;
+  border: #a1a1a1;
+  background-color: #ccc;
+  color: #a1a1a1;
 }
